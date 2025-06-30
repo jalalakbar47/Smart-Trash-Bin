@@ -1,47 +1,94 @@
-6th# 🗑️ Smart Trash Bin System
+# 🗑️ Smart Trash Bin (IoT-Based)
 
-An IoT-based Smart Trash Bin built using Raspberry Pi, ultrasonic sensor, and a servo motor. This system automatically detects when a person is near and opens the lid, promoting contactless and hygienic waste disposal.
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
----
-
-## 🚀 Features
-
-- 🤖 **Automatic lid opening/closing** using distance sensing  
-- 📡 **Ultrasonic sensor-based object detection**  
-- 🧠 **Simple and modular Python code**  
-- 💰 **Low-cost components** (can be built at home)  
-- 🏥 **Ideal for smart homes, hospitals, schools, and public places**  
+An IoT-based smart trash bin that opens automatically using an ultrasonic sensor and servo motor controlled by a Raspberry Pi. Designed for touchless, hygienic waste disposal in homes, schools, hospitals, and public places.
 
 ---
 
-## 🛠️ Components Used
-
-| Component         | Description                              |
-|------------------|------------------------------------------|
-| Raspberry Pi      | Main controller                          |
-| Ultrasonic Sensor | Distance measurement (e.g., HC-SR04)     |
-| Servo Motor       | Lid movement                             |
-| Jumper Wires      | For connections                          |
-| Breadboard        | Circuit assembly                         |
-
----
-
-## 📷 Circuit Diagram
+## 📸 Circuit Diagram
 
 ![Smart Trash Bin Circuit](./docs/circuit%20diagram.png)
 
+---
 
-## ▶️ How to Run
+## 🧠 Features
 
-1. **Install dependencies**:
+- 🤖 **Automatic lid control** using distance sensing  
+- 🔊 **Ultrasonic sensor** to detect hand proximity  
+- ⚙️ **Servo motor** to open/close the bin lid  
+- 🧾 **Python script** to handle sensor input and motor output  
+- 🌐 **IoT concept** – part of smart city and automation systems  
+
+---
+
+## 🛠️ Hardware Required
+
+- Raspberry Pi (any model with GPIO)  
+- HC-SR04 Ultrasonic Sensor  
+- SG90 Servo Motor  
+- Jumper wires  
+- Breadboard  
+- Power source  
+- Dustbin with attachable lid  
+
+---
+
+## 💻 Software / Tools
+
+- Python 3.x  
+- GPIO library for Raspberry Pi  
+- Tinkercad (for simulation/design)  
+- GitHub (version control & documentation)  
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/smart-trash-bin.git
+   cd smart-trash-bin
+   ```
+
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Run the script**:
+3. Run the Python script:
    ```bash
    python smart_trash_bin.py
    ```
 
-> ⚠️ **Note:** Make sure to run this on a Raspberry Pi or similar board with GPIO support.
+---
 
+## 📂 File Structure
+
+```
+smart-trash-bin/
+├── smart_trash_bin.py
+├── requirements.txt
+├── LICENSE
+├── README.md
+└── docs/
+    ├── circuit diagram.png
+    └── notes.md
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute it for educational purposes.
+
+---
+
+## 🙋‍♂️ Author
+
+**Jalaluddin Khan**  
+BSCS Student | Pakistan 🇵🇰  
+GitHub: [@jalaluddin-fire](https://github.com/jalaluddin-fire)
