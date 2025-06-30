@@ -1,8 +1,8 @@
 # 🗑️ Smart Trash Bin (IoT-Based)
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
 An IoT-based smart trash bin that opens automatically using an ultrasonic sensor and servo motor controlled by a Raspberry Pi. Designed for touchless, hygienic waste disposal in homes, schools, hospitals, and public places.
 
@@ -10,38 +10,48 @@ An IoT-based smart trash bin that opens automatically using an ultrasonic sensor
 
 ## 📸 Circuit Diagram
 
-![Smart Trash Bin Circuit](./docs/circuit%20diagram.png)
+![Smart Trash Bin Circuit](docs/circuit_diagram.png)
 
 ---
 
 ## 🧠 Features
 
 - 🤖 **Automatic lid control** using distance sensing  
-- 🔊 **Ultrasonic sensor** to detect hand proximity  
+- 📡 **Ultrasonic sensor** to detect hand proximity  
 - ⚙️ **Servo motor** to open/close the bin lid  
-- 🧾 **Python script** to handle sensor input and motor output  
+- 🐍 **Python script** to handle sensor input and motor output  
 - 🌐 **IoT concept** – part of smart city and automation systems  
 
 ---
 
-## 🛠️ Hardware Required
+## 🔌 Hardware Required
 
-- Raspberry Pi (any model with GPIO)  
-- HC-SR04 Ultrasonic Sensor  
-- SG90 Servo Motor  
-- Jumper wires  
-- Breadboard  
-- Power source  
-- Dustbin with attachable lid  
+- Raspberry Pi (any model with GPIO)
+- HC-SR04 Ultrasonic Sensor
+- SG90 Servo Motor
+- Jumper wires
+- Breadboard
+- Power source
+- Dustbin with attachable lid
 
 ---
 
-## 💻 Software / Tools
+## 🛠️ Software / Tools
 
 - Python 3.x  
 - GPIO library for Raspberry Pi  
 - Tinkercad (for simulation/design)  
-- GitHub (version control & documentation)  
+- GitHub (version control & documentation)
+
+---
+
+## 📦 Dependencies
+
+These packages are required to run the project. They are listed in `requirements.txt`:
+
+```txt
+RPi.GPIO
+time  
 
 ---
 
