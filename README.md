@@ -1,4 +1,4 @@
-# 🗑️ Smart Trash Bin System
+6th# 🗑️ Smart Trash Bin System
 
 An IoT-based Smart Trash Bin built using Raspberry Pi, ultrasonic sensor, and a servo motor. This system automatically detects when a person is near and opens the lid, promoting contactless and hygienic waste disposal.
 
@@ -28,8 +28,7 @@ An IoT-based Smart Trash Bin built using Raspberry Pi, ultrasonic sensor, and a 
 
 ## 📷 Circuit Diagram
 
-![Smart Trash Bin Circuit] 
-(./A_schematic_diagram_of_a_Smart_Trash_Bin_circuit_i.png)
+![Smart Trash Bin Circuit](./circuit%20diagram.png)
 
 
 
