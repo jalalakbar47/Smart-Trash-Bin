@@ -28,8 +28,7 @@ An IoT-based Smart Trash Bin built using Raspberry Pi, ultrasonic sensor, and a 
 
 ## 📷 Circuit Diagram
 
-![Smart Trash Bin Circuit](./circuit%20diagram.png)
-
+![Smart Trash Bin Circuit](./docs/circuit%20diagram.png)
 
 
 ## ▶️ How to Run
