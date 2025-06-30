@@ -6,21 +6,38 @@ An IoT-based Smart Trash Bin built using Raspberry Pi, ultrasonic sensor, and a 
 
 ## 🚀 Features
 
-- 🤖 Automatic lid opening/closing using distance sensing
-- 📏 Ultrasonic sensor-based object detection
-- 🧠 Simple and modular Python code
-- ⚡ Low-cost components (can be built at home)
-- 🏡 Ideal for smart homes, hospitals, schools, and public places
+- 🤖 **Automatic lid opening/closing** using distance sensing  
+- 📡 **Ultrasonic sensor-based object detection**  
+- 🧠 **Simple and modular Python code**  
+- 💰 **Low-cost components** (can be built at home)  
+- 🏥 **Ideal for smart homes, hospitals, schools, and public places**  
 
 ---
 
 ## 🛠️ Components Used
 
-| Component         | Description                    |
-|------------------|--------------------------------|
-| Raspberry Pi      | Main controller                 |
-| Ultrasonic Sensor | Distance measurement (e.g., HC-SR04) |
-| Servo Motor       | Lid movement                   |
-| Jumper Wires      | For connections                 |
-| Breadboard        | Circuit assembly               |
+| Component         | Description                              |
+|------------------|------------------------------------------|
+| Raspberry Pi      | Main controller                          |
+| Ultrasonic Sensor | Distance measurement (e.g., HC-SR04)     |
+| Servo Motor       | Lid movement                             |
+| Jumper Wires      | For connections                          |
+| Breadboard        | Circuit assembly                         |
 
+---
+
+## ▶️ How to Run
+
+1. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the script**:
+   ```bash
+   python smart_trash_bin.py
+   ```
+
+> ⚠️ **Note:** Make sure to run this on a Raspberry Pi or similar board with GPIO support.
+
+---
